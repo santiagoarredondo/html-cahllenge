@@ -1,0 +1,16 @@
+body {
+     background: crimson;
+     color: black;
+     font: bold;
+ }
+
+h1 {
+    background: crimson;
+    color: black;
+    font: bold;
+}
+
+header {
+    place-content: center;
+    background: crimson;
+}
