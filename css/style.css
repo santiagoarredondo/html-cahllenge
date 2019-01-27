@@ -1,16 +1,7 @@
 body {
-     background: crimson;
-     color: black;
-     font: bold;
+    background-color: #f4f4f4;
+    color: #000;
+    font-family: "Comic Sans MS";
  }
 
-h1 {
-    background: crimson;
-    color: black;
-    font: bold;
-}
-
-header {
-    place-content: center;
-    background: crimson;
-}
+div { border-color: black}
