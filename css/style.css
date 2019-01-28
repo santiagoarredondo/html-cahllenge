@@ -29,19 +29,19 @@ ul {
   }
 
   #logo {
-      margin-bottom: 0.5cm;
+    margin-bottom: 0.5cm;
   }
 
   #div1 {
-      float: left;
+    float: left;
   }
 
   #div2 {
-      float: left;
+    float: left;
   }
 
   #menubar {
-      clear: both;
+    clear: both;
   }
 
   #home{
@@ -50,7 +50,36 @@ ul {
   }
 
   #img-home {
-      vertical-align: top;
+    vertical-align: top;
+    margin-right: 12px;
+  }
+
+  #account{
+    float: right;
+    vertical-align: middle;
+  }
+
+  #img-account {
+    vertical-align: top;
+    margin-right: 12px;
+  }
+  #messages{
+    float: right;
+    vertical-align: middle;
+  }
+
+  #img-messages {
+    vertical-align: top;
+    margin-right: 12px;
+  }
+  #favorites{
+    float: right;
+    vertical-align: middle;
+  }
+
+  #img-favorites {
+    vertical-align: top;
+    margin-right: 12px;
   }
 
   img.pequeña{
