@@ -4,7 +4,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    border-radius: 25px;
+    border-radius: 15px;
   }
 
   
@@ -12,7 +12,6 @@ ul {
     float: left;
     font-weight: 200;
     font-size: 1.5em;
-    
   }
   
   li a {
@@ -21,14 +20,18 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-top: 0.4cm;
+    margin-bottom: 0.4cm;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    filter: invert(1);
+    background-color: #333;
   }
 
   #logo {
+    margin-top: 0.2cm;
     margin-bottom: 0.5cm;
   }
 
@@ -44,12 +47,12 @@ ul {
     clear: both;
   }
 
-  #home{
+  #settings{
     float: right;
     vertical-align: middle;
   }
 
-  #img-home {
+  #img-settings {
     vertical-align: top;
     margin-right: 12px;
   }
@@ -82,6 +85,27 @@ ul {
     margin-right: 12px;
   }
 
+  #img-user {
+    vertical-align: top;
+    margin-right: 12px;
+    border-radius: 150px;
+    border: orangered 2px solid;
+    
+  }
+  #img-user.hover {
+    filter: invert(1);
+  }
+
+  #user.option{
+    align-content: center;
+  }
+
+  #lista-usuario{
+    background-color: #333;
+    color: #f4f4f4;
+    border: 0;
+  }
+
   img.pequeña{
     max-width: 1em; max-height: 1em;
   }
@@ -98,3 +122,5 @@ ul {
     display: inline-block;
     vertical-align: bottom;
   }
+
+  /*dropdown hover content*/
