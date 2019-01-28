@@ -1,7 +1,71 @@
-body {
-    background-color: #f4f4f4;
-    color: #000;
-    font-family: "Comic Sans MS";
- }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 25px;
+  }
 
-div { border-color: black}
+  
+  li {
+    float: left;
+    font-weight: 200;
+    font-size: 1.5em;
+    
+  }
+  
+  li a {
+    display: block;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  #logo {
+      margin-bottom: 0.5cm;
+  }
+
+  #div1 {
+      float: left;
+  }
+
+  #div2 {
+      float: left;
+  }
+
+  #menubar {
+      clear: both;
+  }
+
+  #home{
+    float: right;
+    vertical-align: middle;
+  }
+
+  #img-home {
+      vertical-align: top;
+  }
+
+  img.pequeña{
+    max-width: 1em; max-height: 1em;
+  }
+
+  img.mediana{
+    max-width: 100px; max-height: 100px;
+  }
+
+  img.grande{
+    max-width: 200px; max-height: 200px;
+  }
+
+  .span-logo {
+    display: inline-block;
+    vertical-align: bottom;
+  }
