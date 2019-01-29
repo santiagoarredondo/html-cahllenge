@@ -3,8 +3,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-    border-radius: 15px;
+    background-color: #444f51;
+    border-radius: 5px;
   }
 
   
@@ -12,6 +12,7 @@ ul {
     float: left;
     font-weight: 200;
     font-size: 1.5em;
+    font-family: 'Ubuntu';
   }
   
   li a {
@@ -22,12 +23,14 @@ ul {
     text-decoration: none;
     margin-top: 0.4cm;
     margin-bottom: 0.4cm;
+    font-family: 'Ubuntu';
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     filter: invert(1);
-    background-color: #333;
+    background-color: #444f51;
+    border-bottom-color:  #dd7500 4px;
   }
 
   #logo {
@@ -98,12 +101,18 @@ ul {
 
   #user.option{
     align-content: center;
+    float: left;
+    margin-left: 80%;
   }
 
   #lista-usuario{
     background-color: #333;
     color: #f4f4f4;
     border: 0;
+  }
+
+  #bd {
+    font-family: "Ubuntu";
   }
 
   img.pequeña{
